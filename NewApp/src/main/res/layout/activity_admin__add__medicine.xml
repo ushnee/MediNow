@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.naqvipc.medinow.Admin_Add_Medicine">
+
+    <ImageButton
+        android:id="@+id/imageButtonMedi"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/button_custom_form_grey_outline"
+        app:srcCompat="@drawable/camera_black_mini"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/eTxtMediName"
+        android:layout_alignStart="@+id/eTxtMediName" />
+
+
+    <EditText
+        android:id="@+id/eTxtMediName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="8"
+        android:hint="Medicine Name"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageButtonMedi"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/eTxtMediDescription"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eTxtMediName"
+        android:layout_alignStart="@+id/eTxtMediName"
+        android:layout_below="@+id/eTxtMediName"
+        android:layout_marginTop="12dp"
+        android:ems="8"
+        android:hint="Medicine Description"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/eTxtMediPrice"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eTxtMediDescription"
+        android:layout_alignStart="@+id/eTxtMediDescription"
+        android:layout_below="@+id/eTxtMediDescription"
+        android:layout_marginTop="11dp"
+        android:ems="8"
+        android:hint="Medicine Price (Rs)"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAddMedi"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/button_custom_form_submit"
+        android:text="ADD MEDICINE"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="307dp"
+        android:layout_below="@+id/eTxtMediPrice"
+        android:layout_alignLeft="@+id/eTxtMediPrice"
+        android:layout_alignStart="@+id/eTxtMediPrice" />
+
+</RelativeLayout>

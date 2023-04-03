@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.naqvipc.medinow.Admin_Login_Activity">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/button_custom_form_grey_outline"
+        android:text="ADMIN LOGIN"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editTextUser"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:ems="8"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold" />
+
+
+    <EditText
+    android:id="@+id/editTextPass"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignEnd="@+id/editTextUser"
+    android:layout_alignLeft="@+id/editTextUser"
+    android:layout_alignRight="@+id/editTextUser"
+    android:layout_alignStart="@+id/editTextUser"
+    android:layout_below="@+id/editTextUser"
+    android:ems="10"
+    android:fontFamily="sans-serif"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:textStyle="bold" />
+
+    <ImageButton
+    android:id="@+id/adminButtonSignIn"
+    android:layout_width="60dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="19dp"
+    android:background="@drawable/button_custom_form_submit"
+    app:srcCompat="@drawable/arrow_white_minio"
+    android:layout_below="@+id/editTextPass"
+    android:layout_alignRight="@+id/editTextPass"
+    android:layout_alignEnd="@+id/editTextPass"
+    android:layout_alignLeft="@+id/editTextPass"
+    android:layout_alignStart="@+id/editTextPass" />
+
+</RelativeLayout>

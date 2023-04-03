@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.naqvipc.medinow.Finder_Register_Activity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/button_custom_form_field"
+        android:text="REGISTER"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextName"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorGreenDark"
+        android:textColorHint="@color/colorGreenDarkMost"
+        android:textColorLink="@color/colorGreenDark"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextEmail"
+        android:layout_alignStart="@+id/editTextEmail"
+        android:layout_below="@+id/editTextEmail"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorGreenDark"
+        android:textColorHint="@color/colorGreenDarkMost"
+        android:textColorLink="@color/colorGreenDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextEmail"
+        android:layout_alignStart="@+id/editTextEmail"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorGreenDark"
+        android:textColorHint="@color/colorGreenDarkMost"
+        android:textColorLink="@color/colorGreenDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/buttonVerifySubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_custom_form_submit"
+        android:text="Verify &amp; Register"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_alignLeft="@+id/editTextPassword"
+        android:layout_alignStart="@+id/editTextPassword"
+        android:layout_alignRight="@+id/editTextPassword"
+        android:layout_alignEnd="@+id/editTextPassword" />
+
+    <!--<ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button_custom_form_submit"
+        app:srcCompat="@drawable/arrow_white_minio"
+        android:layout_below="@+id/editText2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_alignTop="@+id/imageButton1"
+        android:background="@drawable/button_custom_form_field"
+        android:text="REGISTER"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+
+
+-->
+</RelativeLayout>

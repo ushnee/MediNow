@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MediNow.iml" filepath="$PROJECT_DIR$/MediNow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NewApp/MediNow.NewApp.iml" filepath="$PROJECT_DIR$/.idea/modules/NewApp/MediNow.NewApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NewApp/MediNow.NewApp.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/NewApp/MediNow.NewApp.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NewApp/MediNow.NewApp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/NewApp/MediNow.NewApp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NewApp/MediNow.NewApp.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/NewApp/MediNow.NewApp.unitTest.iml" />
+    </modules>
+  </component>
+</project>

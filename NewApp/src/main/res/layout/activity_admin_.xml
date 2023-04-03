@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.naqvipc.medinow.Admin_Activity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/button_custom_form_grey_outline"
+        android:text="ADMIN PANEL"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/button_custom_form_submit"
+        android:text="LOGOUT"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btnRecOrder"
+        android:layout_alignEnd="@+id/btnRecOrder"
+        android:layout_alignLeft="@+id/btnRecOrder"
+        android:layout_alignStart="@+id/btnRecOrder" />
+
+    <Button
+        android:id="@+id/btnAddMed"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/button_custom_form_submit"
+        android:text="ADD &#xA; Medicine"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAddVendor"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignTop="@+id/btnAddMed"
+        android:background="@drawable/button_custom_form_submit"
+        android:text="ADD &#xA; VENDOR"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRecOrder"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_alignEnd="@+id/btnAddVendor"
+        android:layout_alignLeft="@+id/btnAddMed"
+        android:layout_alignRight="@+id/btnAddVendor"
+        android:layout_alignStart="@+id/btnAddMed"
+        android:layout_below="@+id/btnAddMed"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/button_custom_form_submit"
+        android:text="Recent Order "
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

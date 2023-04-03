@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "10908798104",
+    "firebase_url": "https://medinow-a2d64.firebaseio.com",
+    "project_id": "medinow-a2d64",
+    "storage_bucket": "medinow-a2d64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10908798104:android:452351981ee55f8248d4ed",
+        "android_client_info": {
+          "package_name": "com.example.naqvipc.medinow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10908798104-uoa1iia20mc3juumkfj785cngu9k47i2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.naqvipc.medinow",
+            "certificate_hash": "54a55f4d235cbb773b17a1d01aa09ea5b140bd29"
+          }
+        },
+        {
+          "client_id": "10908798104-ae983n56q1b645q839elmck0e1ns4a8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYSUpEcAVAMEt2KeDBkwCL5mlfJ2igYN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10908798104-ae983n56q1b645q839elmck0e1ns4a8v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

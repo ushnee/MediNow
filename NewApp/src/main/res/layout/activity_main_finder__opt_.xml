@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.naqvipc.medinow.MainFinder_Opt_Activity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/button_custom_form_grey_outline"
+        android:text="Main Menu"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonEmaila"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_custom_form_grey_outline"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/buttonLogout"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/button_custom_form_submit"
+        android:text="LOGOUT"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp"
+        android:layout_alignLeft="@+id/buttonEmaila"
+        android:layout_alignStart="@+id/buttonEmaila"
+        android:layout_alignRight="@+id/buttonEmaila"
+        android:layout_alignEnd="@+id/buttonEmaila" />
+
+    <TextView
+        android:id="@+id/textViewEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonEmaila"
+        android:layout_alignBottom="@+id/buttonEmaila"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnFIndMedi"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/button_custom_form_submit"
+        android:text="Find &#xA; Medecine"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignTop="@+id/btnFIndMedi"
+        android:background="@drawable/button_custom_form_submit"
+        android:text="Upload &#xA; Document"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/btnFIndMedi"
+        android:layout_alignStart="@+id/btnFIndMedi"
+        android:layout_below="@+id/btnFIndMedi"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/button_custom_form_submit"
+        android:text="Your Order Details"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignRight="@+id/btnUpload"
+        android:layout_alignEnd="@+id/btnUpload" />
+
+</RelativeLayout>
